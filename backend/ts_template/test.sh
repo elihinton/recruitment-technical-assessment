@@ -31,7 +31,7 @@ ts-node task.ts &  # Starts server in background
 SERVER_PID=$!
 
 # Give the server a moment to start
-sleep 1
+sleep 5
 
 # Run autotester
 echo "Running autotester..."
